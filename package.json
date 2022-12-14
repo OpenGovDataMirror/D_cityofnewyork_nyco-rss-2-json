@@ -1,0 +1,22 @@
+{
+  "name": "nyco-rss-to-json",
+  "version": "1.0.2",
+  "description": "A self hosted RSS into JSON proxy using AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "sam local invoke -e event.json NycoRss2Json"
+  },
+  "author": "NYC Opportunity<products@nycopportunity.nyc.gov>",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfNewYork/nyco-rss-2-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CityOfNewYork/nyco-rss-2-json/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "xml2js": "^0.4.19"
+  }
+}
